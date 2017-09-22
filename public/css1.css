@@ -1,0 +1,70 @@
+body {
+    background-color: #f5f5dc;
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+}
+#page_info{
+    margin-top: 5px;
+    padding: 6px;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#logo {
+    padding: 0px 30px;
+}
+.modal h4{
+  color: purple;
+}
+.nav {
+    /*background-color: #656176;*/
+    /*padding-bottom: 150%;*/
+    min-height: 100%;
+    
+}
+#ourtable{
+  font-family:Verdana, Sans-serif;
+    font-size: 1rem;
+}
+#header_text{
+  font-family:Verdana, Sans-serif;
+    font-size: 1.2rem;
+
+    border-bottom: 1px solid rgba(101,97,118,0.3)  ;
+}
+.nav li {
+    padding: 15px;
+    transition: 1s;
+    border-bottom: 1px solid rgba(101,97,118,0.3)  ;
+    cursor: pointer;
+    font-family:Verdana, Sans-serif;
+    font-size: 1.2rem;
+}
+.nav li:hover {
+    background-color: purple;
+    color: white;
+}
+/* label focus color */
+ .input-field input:focus + label {
+   color: #ab47bc !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ab47bc !important;
+   box-shadow: 0 1px 0 0 #ab47bc !important
+ }
+/* label focus color */
+ .input-field textarea:focus + label {
+   color: #ab47bc !important;
+ }
+ /* label underline focus color */
+ .row .input-field textarea:focus {
+   border-bottom: 1px solid #ab47bc !important;
+   box-shadow: 0 1px 0 0 #ab47bc !important
+ }

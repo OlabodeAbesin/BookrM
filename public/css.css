@@ -1,0 +1,39 @@
+body.welcome-page{
+	background: linear-gradient(
+			rgba(0,0,0,0.4),
+			rgba(0,0,0,0.4)
+		),
+        url(img1.jpg) no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo p{
+	font-size: 5rem;
+	padding: 20px;
+	text-align: center;
+	padding-bottom: 10px;
+	margin-top: 10%;
+}
+.top-nav {
+	float: right;
+	padding: 15px;
+	font-size: 1.1rem;
+}
+.top-nav:hover {
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;
+}
+a:link, a:visited, a:active, a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+/* label focus color */
+ .input-field input:focus + label {
+   color: #ab47bc !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid #ab47bc !important;
+   box-shadow: 0 1px 0 0 #ab47bc !important
+ }
